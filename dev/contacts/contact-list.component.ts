@@ -17,7 +17,8 @@ import {OnInit} from "angular2/src/core/linker/interfaces";
           <contact [contact]="selectedContact"></contact>
 `,
       directives: [ContactComponent],
-      providers: [ContactService]
+      providers: [ContactService],
+      styleUrls: ["../src/css/contact-list.css"]
 })
  export class ContactListComponent implements  OnInit {
   public contacts: Contact[];

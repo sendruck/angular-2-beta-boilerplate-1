@@ -4,3 +4,17 @@ body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
 }
+
+.clicked {
+  color: red;
+}
+
+header nav {
+  width: 75%;
+  margin: 32px;
+}
+
+header nav a:hover,
+header nav a:active {
+  color: #6a82ff;
+}
